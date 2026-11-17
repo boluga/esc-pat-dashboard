@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <!--
+    The web build of this project is the DASHBOARD (lib/main_dashboard.dart,
+    docs/dashboard.md). `flutter build web` replaces / with
+    the value of the base-href argument; it must start and end with "/".
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="ESC PAT Certificate dashboard: customers, sites, engineers, jobs, certificates, company details and billing.">
+  <!-- A signed-in back office: nothing here is for a search engine. -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#1F5FA8">
+
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>ESC PAT Certificate — Dashboard</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body { background: #f7f9fc; font-family: system-ui, sans-serif; color: #1a1c1e; }
+    #loading { height: 100%; display: flex; align-items: center; justify-content: center; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111318; color: #e2e2e9; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Shown until Flutter draws its first frame, then removed by it. -->
+  <div id="loading" role="status">Loading the dashboard…</div>
+  <noscript>The ESC PAT Certificate dashboard needs JavaScript.</noscript>
+
+  <!--
+    web/flutter_bootstrap.js is this project's own: it starts the app
+    without registering a service worker, so a new deployment is never
+    hidden behind an old cached copy.
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
