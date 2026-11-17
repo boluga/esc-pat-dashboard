@@ -1,5 +1,5 @@
-# ESC PAT Certificate dashboard (built files)
+# PAT Test Certificate dashboard (built files)
 
-The published build of the ESC PAT Certificate web dashboard, served by
-GitHub Pages at https://pat.easysafetycert.co.uk. Only built files live
+The published build of the PAT Test Certificate (by Boluga) web dashboard, served by
+GitHub Pages at https://pat.boluga.com. Only built files live
 here; each commit names the source commit it was built from.

@@ -1,11 +1,11 @@
 {
-    "name": "ESC PAT Certificate — Dashboard",
-    "short_name": "ESC PAT",
+    "name": "PAT Test Certificate — Dashboard",
+    "short_name": "PAT Cert",
     "start_url": ".",
     "display": "browser",
     "background_color": "#F7F9FC",
     "theme_color": "#1F5FA8",
-    "description": "ESC PAT Certificate dashboard",
+    "description": "PAT Test Certificate by Boluga dashboard",
     "prefer_related_applications": false,
     "icons": [
         {
